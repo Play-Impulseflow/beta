@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ImpulseFlow —  Explore the beatiful world of Impulse Flow</title>
+
+    <meta name="robots" content="index, follow">
+    <link rel="shortcut icon" href="img/favicon.svg" type="image/svg">
+    <meta name="theme-color" content="#060511">
+    <meta name="robots" content="index, follow">
+    <meta name="description" content="✨ Walk through beautiful world of Impulse Flow, meet new friends & have fun!">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="✨ Explore the beautiful world of Impulse Flow">
+    <meta property="og:description" content="Walk through beautiful world of Impulse Flow, meet new friends & have fun!">
+    <meta property="og:site_name" content="💥 ImpulseFlow">
+    <meta property="og:image" content="img/cover.jpg">
+    <meta property="og:image:secure_url" content="img/cover.jpg">
+
+    <link rel="preload" href="css/style.css" as="style">
+    <link rel="preload" href="fonts/Rubik/stylesheet.css" as="style">
+    <link rel="preload" href="css/fm.revealator.jquery.css" as="style">
+    <link rel="preload" href="js/jquery-1.11.3.min.js" as="script">
+    <link rel="preload" href="js/fm.revealator.jquery.js" as="script">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="fonts/Rubik/stylesheet.css">
+    <link rel="stylesheet" href="fonts/TT Interfaces/stylesheet.css">
+    <link rel="stylesheet" href="fonts/Gilroy/stylesheet.css">
+    <link rel="stylesheet" href="fonts/depixel_schmal_macroman/stylesheet.css">
+
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/download.js"></script>
+</head>
+<body>
+    <div class="popup" id="popup">
+        <div class="download">
+            <button class="popup__button-close" id="button-close"><img src="img/exit.png"></button>
+            <h1 class="download__h1">YOUR PERSONAL ACTIVATION CODE</h1>
+            <div class="download__img">
+                <img src="img/image 12312312.png" alt="">
+            </div>
+            <p class="download__p">This is your personal key to try beta test stage. To start -> enter the secret code you received!</p>
+            <p class="download__error" id="error-message" style="display: none">Unfortunately, you entered the wrong key!</p>
+
+            <input type="text" class="download__input" placeholder="Enter key" id="key">
+            <button class="download-button" id="download">
+                PLAY ALPHA
+             </button>
+        </div>
+    </div>
+
+    <div class="popup popup__roadmap" id="popup-roadmap">
+        <div class="download popup__roadmap--body">
+            <button class="popup__button-close" id="button-close-roadmap"><img src="img/exit.png"></button>
+
+            <div class="popup__roadmap--dialog">
+                <div class="download__img">
+                    <img src="img/image 12312312.png" alt="">
+                </div>
+                <h1 class="download__h1" id="description">YOUR PERSONAL ACTIVATION CODE</h1>
+            </div>
+        </div>
+    </div>
+
+    <div class="circels"></div>
+    <div class="circels2"></div>
+
+    <header class="header">
+        <div class="first-container">
+            <div class="header-navbar">
+                <a class="header-navbar__logo" href="/"></a>
+                <nav class="header-navbar__nav navbar">
+                    <ul class="navbar__ul">
+                        <li class="navbar__li"><a href="#about" class="navbar__a">About</a></li>
+                        <li class="navbar__li"><a href="#faq" class="navbar__a">FAQ</a></li>
+                        <li class="navbar__li"><a href="#gameplay" class="navbar__a">Gameplay</a></li>
+                        <li class="navbar__li"><a href="#roadmap" class="navbar__a">Roadmap</a></li>
+                        <li class="navbar__li"><a href="#team" class="navbar__a">Team</a></li>
+                        <li class="navbar__li"><a href="#contacts" class="navbar__a">Contacts</a></li>
+                        <li class="navbar__li"><a href="https://twitter.com/lmpulse_Flow" class="navbar__a" target="_blank"><img src="img/twitter.svg" width="32" height="32" alt="twitter"></a></li>
+                        <li class="navbar__li"><a href="https://www.instagram.com/impulse_flow/" class="navbar__a" target="_blank"><img src="img/instagram.svg" width="32" height="32" alt="instagram"></a></li>
+                        <li class="navbar__li"><a href="https://discord.gg/impulse-flow" class="navbar__a" target="_blank"><img src="img/discord.svg" width="32" height="32" alt="discord"></a></li>
+                        <li class="navbar__li"><a href="https://impulse-flow.gitbook.io/impulse_flow-whitepaper/" class="navbar__a" target="_blank"><img src="img/file-code.svg" width="32" height="32" alt="gitbook"></a></li>
+                    </ul>
+                </nav>
+                <div class="burger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+            
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="section-one revealator-zoomout revealator-partially-below">
+            <div class="first-container">
+                <div class="section-one__content">
+                    <div class="section-one__try-one-div div-with-white-border">
+                        TRY ONE OF THE LARGEST NFT OPEN-WORLD GAME
+                    </div>
+                    <h1 class="section-one__h1 revealator-zoomout">
+                        Explore the <span>beautiful</span> world of Impulse Flow
+                    </h1>
+                    <p class="section-one__p">Walk through beautiful world of Impulse Flow, meet new friends & have fun!</p>
+                    <div class="section-one__buttons">
+                        <button class="section-one__fbutton download-button">
+                           <img src="img/Windows_logo.png" alt=""> DOWNLOAD
+                        </button>
+                        <a class="section-one__sbutton discord-button" href="https://discord.gg/Impulse-flow" target="_blank">
+                           <img src="img/discord.png" alt=""> DISCORD
+                        </a>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+        <section class="first-container" id="about">
+            <div class="cards">
+                <h1 class="cards__h1 revealator-zoomout">Explore the <span>beatiful</span> world of Impulse Flow</h1>
+                <div class="cards__first-row">
+                    <div class="card-one revealator-zoomout revealator-within">
+                        <div class="card-one__content">
+                            <p class="card-one__p1">VARIOUS CHARACTERS & ITEMS</p>
+                            <p class="card-one__p2 otstop">Explore the <span> beautiful</span> </p>
+                            <p class="card-one__p2 card-one__p3">world of Impulse Flow</p>
+                            <p class="card-one__p4">Exciting gameplay, many locations & side quests</p>
+                        </div>
+                        <img src="img/impulse222-removebg-preview 1.png" alt="" class="card-one__img">
+                    </div>
+                    <div class="card-two revealator-zoomin revealator-within">
+                        <p class="card-two__p1">
+                            BECOME ANYONE YOU WANT
+                        </p>
+                        <p class="card-two__p2">
+                            Become either a <span>villian</span> or a hero
+                        </p>
+                        <img src="img/cheliki.png" alt="" class="card-two__img">
+                    </div>
+                </div>
+                <img src="img/23.png" alt="" class="zagagulya1">
+                <div class="card-three revealator-zoomin revealator-within">
+                    <p class="card-three__p">Spend hours & hours exploring our universe</p>
+                    <img class="card-three__img" src="img/Group 1261153158.png" alt="">
+                    <img class="card-three__wizzard" src="img/wizzard.png" alt="">
+                </div>
+                <div class="card-four revealator-zoomout revealator-within">
+                    <img src="img/Group 1261152827.png" alt="" class="card-four__img">
+                    <div class="card-four__list">
+                        <div class="card-four__item">
+                            <p class="card-four__item-p">Impulse is a decentralized, community-driven gaming ecosystem</p>
+                        </div>
+                        <div class="card-four__item">
+                            <p>Strong partnership with industry leaders raised up our quality<br><img src="img/image 906.png" alt=""></p>
+                        </div>
+                        <div class="card-four__item">
+                            <p>250+ Characters to explore</p>
+                        </div>
+                        <div class="card-four__item">
+                            <p>Approved by Binance</p>
+                        </div>
+                        <div class="card-four__item">
+                            <p>Approved by Binance</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="youtube revealator-zoomin revealator-within" id="gameplay">
+                <div class="yt-circles"></div>
+                <h1 class="youtube__h1">GAMEPLAY</h1>
+                <div class="iframe-grad"></div>
+                <video controls width="70%" height="100%" class="youtube__content">
+                    <source src="123.mp4" type="video/mp4">
+                </video>
+            </div>
+        </section>
+        <section class="partners">
+            <div class="patnters-back"></div>
+            <div class="first-container">
+                <div class="partners__title">
+                    <h2 class="partners__heading">Our partners</h2>
+                </div>
+                <div class="partners__list marquee revealator-fade revealator-duration10 revealator-within" style="overflow:hidden">
+                    <img class="partners__img revealator-rotateleft revealator-within" src="img/biswap-bsw-logo 1.svg" alt="">
+                    <img class="partners__img revealator-rotateleft revealator-within" src="img/path16.svg" alt="">
+                    <img class="partners__img revealator-rotateleft revealator-within" src="img/phantom-logo 1.svg" alt="">
+                    <img class="partners__img revealator-rotateleft revealator-within" src="img/rarible-seeklogo.com 1.svg" alt="">
+                    <img class="partners__img revealator-rotateleft revealator-within" src="img/solanaLogo 1.svg" alt="">
+                    <img class="partners__img revealator-rotateleft revealator-within" src="img/Vector(2).svg" alt="">
+                    <img class="partners__img revealator-rotateleft revealator-within"src="img/color-white 1.svg" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="first-container" id="faq">
+            <div class="section-six">
+                <h1 class="section-six__h1">F.A.Q</h1>
+                <div class="accodions">
+                    <div class="accordion">
+                      <div class="accordion-toggle">WHAT IS THE TOTAL SUPPLY?</div>
+                      <div class="accordion-target">
+                        <div class="accordion-target-inner">
+                          <p>There are a total of 4,444 NFTs available for mint.</p>
+                        </div>       
+                      </div>
+                    </div>
+                    <div class="accordion">
+                      <div class="accordion-toggle">HOW MANY IMPULSE NFTS CAN I MINT IN THE WHITELIST SALE?</div>
+                      <div class="accordion-target">
+                        <div class="accordion-target-inner">
+                          <p>WL role holders will be able to mint 2 IMPULSE NFTs at the pre-sale</p>
+                        </div>       
+                      </div>
+                    </div>
+                    <div class="accordion">
+                        <div class="accordion-toggle">HOW MANY IMPULSE NFTS CAN I MINT IN THE PUBLIC SALE?</div>
+                        <div class="accordion-target">
+                          <div class="accordion-target-inner">
+                            <p>At the public sale, we set a limit of 5 IMPULSE to one wallet</p>
+                          </div>       
+                        </div>
+                      </div>
+                      <div class="accordion">
+                        <div class="accordion-toggle">HOW TO MINT?</div>
+                        <div class="accordion-target">
+                          <div class="accordion-target-inner">
+                            <p>Video guide on how to mint one of IMPULSE will be available very soon in our official discord</p>
+                          </div>       
+                        </div>
+                      </div>
+                      <div class="accordion">
+                        <div class="accordion-toggle">WHAT WILL BE THE PRICE FOR ONE IMPULSE?</div>
+                        <div class="accordion-target">
+                          <div class="accordion-target-inner">
+                            <p>Price for IMPULSE is TBA</p>
+                          </div>       
+                        </div>
+                      </div>
+                      <div class="accordion">
+                        <div class="accordion-toggle">CAN I APPLY TO BE A MOD IN THIS SERVER?</div>
+                        <div class="accordion-target">
+                          <div class="accordion-target-inner">
+                            <p>Yes! Just open a ticket for Mod Application :)</p>
+                          </div>       
+                        </div>
+                      </div>
+                  </div>
+            </div>
+        </section>
+        <section class="section-seven" id="roadmap">
+                
+            <h1 class="section-seven__h1 revealator-zoomout revealator-partially-above">
+                OUR GAME <span>ROADMAP <img src="img/Vector.png" alt=""></span> & MORE
+            </h1>
+            <div class="roadmap revealator-zoomout revealator-partially-above">
+                <div class="roadmap__item">
+                    CHAPTER 1
+                </div>
+                <hr>
+                <div class="roadmap__item">
+                    CHAPTER 2
+                </div>
+                <hr>
+                <div class="roadmap__item">
+                    CHAPTER 3
+                </div>
+                <hr>
+                <div class="roadmap__item">
+                    CHAPTER 4
+                </div>
+                <hr>
+                <div class="roadmap__item">
+                    CHAPTER 5
+                </div>
+                <div class="next"></div>
+                <div class="roadmap__item">
+                    CHAPTER 6
+                </div>
+                <hr>
+                <div class="roadmap__item">
+                    CHAPTER 7
+                </div>
+                <hr>
+                <div class="roadmap__item">
+                    CHAPTER 8
+                </div>
+                <hr>
+                <div class="roadmap__item">
+                    CHAPTER 9
+                </div>
+                <hr>
+                <div class="roadmap__item">
+                    CHAPTER 10
+                </div>
+                <hr>
+                <div class="roadmap__item">
+                    CHAPTER 11
+                </div>
+            </div>
+        </section>
+        <section class="section-eight" id="team">
+            <h1 class="section-eight__h1">OUR BIG TEAM & EMPLOYEES</h1>
+            <div class="workers">
+                <div class="worker revealator-rotateleft revealator-within">
+                    <div class="worker__div">
+                        <p class="worker__p1">Justin M.</p>
+                        <p class="worker__p2">Character artist & 3D designer</p>
+                    </div>
+                </div>
+                <div class="worker revealator-rotateleft revealator-within">
+                    <div class="worker__div">
+                        <p class="worker__p1">Sebastian G.</p>
+                        <p class="worker__p2">Sponsor of the “Impulse Flow” ideas</p>
+                    </div>
+                </div>
+                <div class="worker revealator-rotateleft revealator-within">
+                    <div class="worker__div">
+                        <p class="worker__p1">Johny H.</p>
+                        <p class="worker__p2">Hiring manager</p>
+                    </div>
+                </div>
+                <div class="worker revealator-rotateleft revealator-within">
+                    <div class="worker__div">
+                        <p class="worker__p1">Jack A.</p>
+                        <p class="worker__p2">CEO of “Impulse Flow”</p>
+                    </div>
+                </div>
+                <div class="worker revealator-rotateleft revealator-within">
+                    <div class="worker__div">
+                        <p class="worker__p1">William V.</p>
+                        <p class="worker__p2">Back-end Developer</p>
+                    </div>
+                </div>
+                <div class="worker revealator-rotateleft revealator-within">
+                    <div class="worker__div">
+                        <p class="worker__p1">Charles F.</p>
+                        <p class="worker__p2">Financial Manager</p>
+                    </div>
+                </div>
+                <div class="worker revealator-rotateleft revealator-within">
+                    <div class="worker__div">
+                        <p class="worker__p1">Sofia E.</p>
+                        <p class="worker__p2">Developer of in game levels</p>
+                    </div>
+                </div>
+                <div class="team">
+                    <p class="team__p1">OUR TEAM ALSO CONTAINS <span>27+</span> <span>EMPLOYESS</span></p>
+                    <p class="team__p2">Each & everyone of us is motivated to develop a true innovation in De-Fi gaming.</p>
+                </div>
+                
+            </div>
+            <h1 class="section-eight__h2">recent <span>user feedback</span> </h1>
+            <p class="section-eight__p">Our fair community replies about our game & latest updates in project!</p>
+        </section>
+        <section class="section-nine revealator-zoomin revealator-within">
+            <img src="img/gradient21.png" alt="" class="gradient">
+                <img src="img/gradient31.png" alt="" class="gradient1">
+            <div class="reviews">
+                
+                <div class="review">
+                    <img src="img/avatar-8f000ed20ff74737e147dc1041fc49a1.jpg" alt="" class="review__img">
+                    <p class="review__p1">Irina Ameretat</p>
+                    <p class="review__p2">It's a perfect!!!</p>
+                    <p class="review__p3">#810</p>
+                </div>
+                <div class="review">
+                    <img src="img/peoples/avatar-8f000ed20ff74737e147dc1041fc49a1.jpg" width="45" height="45" alt="" class="review__img">
+                    <p class="review__p1">Sabrina Vesela</p>
+                    <p class="review__p2">Really liked the type of game!</p>
+                    <p class="review__p3">#810</p>
+                </div>
+                <div class="review">
+                    <img src="img/peoples/avatar-ed66fc3304eea3df438b7bbee3b19591.jpg" width="45" height="45" alt="" class="review__img">
+                    <p class="review__p1">Max Rashn</p>
+                    <p class="review__p2">Very cool game</p>
+                    <p class="review__p3">#690</p>
+                </div>
+                <div class="review">
+                    <img src="img/peoples/avatar-846df5c1945f503ead0f5c6cdbe4c195.jpg" width="45" height="45" alt="" class="review__img">
+                    <p class="review__p1">Abiodun Afonya</p>
+                    <p class="review__p2">Playing and earning</p>
+                    <p class="review__p3">#307</p>
+                </div>
+                <div class="review">
+                    <img src="img/peoples/avatar-fa5595a13d4ff0767b1bf8cc507813d5.jpg" width="45" height="45" alt="" class="review__img">
+                    <p class="review__p1">Jarle Al-Amir</p>
+                    <p class="review__p2">She gave me a second life.</p>
+                    <p class="review__p3">#686</p>
+                </div>
+                <div class="review">
+                    <img src="img/peoples/avatar-e69726f14df11b3f4fae8fefcc6c37a1.jpg" width="45" height="45" alt="" class="review__img">
+                    <p class="review__p1">Shiv Silvanus</p>
+                    <p class="review__p2">This is a unique project!</p>
+                    <p class="review__p3">#886</p>
+                </div>
+                <div class="review">
+                    <img src="img/peoples/avatar-1814919e54572cb28d383c7a54c2e686.jpg" width="45" height="45" alt="" class="review__img">
+                    <p class="review__p1">Cahyo Max</p>
+                    <p class="review__p2">Thanks for the game!</p>
+                    <p class="review__p3">#604</p>
+                </div>
+                <div class="review">
+                    <img src="img/peoples/avatar-f06f68df7b964f636bf6d828055fc07f.jpg" alt="" width="45" height="45" class="review__img">
+                    <p class="review__p1">Momchil Wēlandaz</p>
+                    <p class="review__p2">It's perfect.</p>
+                    <p class="review__p3">#527</p>
+                </div>
+            </div>
+            <div class="next_reviews">
+                <div class="spase"></div>
+                <div class="review">
+                    <img src="img/peoples/avatar-5b700158330c39a3292e9d72509f3fd5.jpg" alt="" width="45" height="45" class="review__img">
+                    <p class="review__p1">Catia China</p>
+                    <p class="review__p2">Glad this game came out!</p>
+                    <p class="review__p3">#271</p>
+                </div>
+                <div class="review">
+                    <img src="img/peoples/avatar-5b700158330c39a3292e9d72509f3fd5.jpg" alt="" width="45" height="45" class="review__img">
+                    <p class="review__p1">Catia China</p>
+                    <p class="review__p2">Glad this game came out!</p>
+                    <p class="review__p3">#493</p>
+                </div>
+                <div class="review">
+                    <img src="img/peoples/avatar-726b754c4e4317c6afb26f292339146b.jpg" alt="" width="45" height="45" class="review__img">
+                    <p class="review__p1">Eva Min-Su</p>
+                    <p class="review__p2">Thank you for this miracle!</p>
+                    <p class="review__p3">#466</p>
+                </div>
+                <div class="review">
+                    <img src="img/peoples/avatar-1258254fade8632bc1ff89c8b6228baf.jpg" alt="" width="45" height="45" class="review__img">
+                    <p class="review__p1">Rahat Mahmud</p>
+                    <p class="review__p2">That's just great.</p>
+                    <p class="review__p3">#921</p>
+                </div>
+                <div class="review">
+                    <img src="img/peoples/avatar-3b65aebab940c67e4fcada09c1911a7b.jpg" alt="" width="45" height="45" class="review__img">
+                    <p class="review__p1">Harjab Omar</p>
+                    <p class="review__p2">This is a great game!</p>
+                    <p class="review__p3">#123</p>
+                </div>
+                <div class="review">
+                    <img src="img/peoples/avatar-9a416d8faa1c955f9aa9cb9c469a5ece.jpg" alt="" width="45" height="45" class="review__img">
+                    <p class="review__p1">Esmail Josse</p>
+                    <p class="review__p2">Something unreal!</p>
+                    <p class="review__p3">#299</p>
+                </div>
+                <div class="review">
+                    <img src="img/peoples/avatar-cdbfc00f322a29fd0c3c12663b0e40a8.jpg" alt="" width="45" height="45" class="review__img">
+                    <p class="review__p1">Mehrab Aybek</p>
+                    <p class="review__p2">Playing and earning online</p>
+                    <p class="review__p3">#242</p>
+                </div>
+                <div class="review">
+                    <img src="img/peoples/avatar-f16b1972227b9ab0f06ea2eaa443971e.jpg" alt="" width="45" height="45" class="review__img">
+                    <p class="review__p1">Govin Zikomo</p>
+                    <p class="review__p2">I'm thrilled.</p>
+                    <p class="review__p3">#192</p>
+                </div>
+                <div class="review">
+                    <img src="img/peoples/avatar-f16b1972227b9ab0f06ea2eaa443971e.jpg" alt="" width="45" height="45" class="review__img">
+                    <p class="review__p1">Govin Zikomo</p>
+                    <p class="review__p2">The developers are great!!</p>
+                    <p class="review__p3">#192</p>
+                </div>
+            </div>
+            
+        </section>
+        <section class="first-container">
+            <section class="section-ten revealator-slideup revealator-within">
+                <div class="section-ten__try-one-div div-with-white-border">
+                    LARGE & PROGRESSIVE GAME COMMUNITY
+                </div>
+                <p class="section-ten__p1">download & start the journey!</p>
+                <p class="section-ten__p2">Join the growing community or become a famous villian on your own joruney!</p>
+                <button class="download-button section-ten__download-button">
+                    <img src="img/Windows_logo.png" alt=""> DOWNLOAD
+                 </button>
+            </section>
+        </section>
+    </main>
+
+    <footer class="footer first-container" id="contacts">
+        <div class="footer__first">
+            <a href="" class="footer__logo"></a>
+            <nav class="footer__nav">
+                <ul class="footer__ul">
+                    <li class="navbar__li"><a href="#about" class="navbar__a">About</a></li>
+                    <li class="navbar__li"><a href="#faq" class="navbar__a">FAQ</a></li>
+                    <li class="navbar__li"><a href="#gameplay" class="navbar__a">Gameplay</a></li>
+                    <li class="navbar__li"><a href="#roadmap" class="navbar__a">Roadmap</a></li>
+                    <li class="navbar__li"><a href="#team" class="navbar__a">Team</a></li>
+                    <li class="navbar__li"><a href="#contacts" class="navbar__a">Contacts</a></li>
+                    <li class="navbar__li"><a href="https://twitter.com/Impulse_Flow" class="navbar__a" target="_blank"><img src="img/twitter.svg" width="32" height="32" alt="twitter"></a></li>
+                    <li class="navbar__li"><a href="https://www.instagram.com/impulse_flow/" class="navbar__a" target="_blank"><img src="img/instagram.svg" width="32" height="32" alt="instagram"></a></li>
+                    <li class="navbar__li"><a href=" https://discord.gg/Impulse-flow" class="navbar__a" target="_blank"><img src="img/discord.svg" width="32" height="32" alt="discord"></a></li>
+                    <li class="navbar__li"><a href="https://impulse-flow.gitbook.io/impulse_flow-whitepaper/" class="navbar__a" target="_blank"><img src="img/file-code.svg" width="32" height="32" alt="gitbook"></a></li>
+                </ul>
+            </nav>
+        </div>
+        <hr>
+        <div class="footer__second">
+            <div class="footer__contacts">
+                <span><img src="img/phone.svg" width="24" height="24" alt="phone"> +1 212-200-9455</span>
+                <span><img src="img/mail.svg" width="24" height="24" alt="mail"> info@play-impulseflow.com</span>
+            </div>
+            <p>Impulse Flow © 2023 </p>
+        </div>
+    </footer>
+
+    <script>
+        pcOnlyDecorator(() => {
+            var a = document.createElement("link");
+            a.rel = "stylesheet", a.href = "css/fm.revealator.jquery.css", document.head.appendChild(a);
+            var b = document.createElement("script");
+            b.type = "text/javascript", b.src = "js/fm.revealator.jquery.js", document.head.appendChild(b)
+        });
+        const menu = document.querySelector(".navbar"),
+            menuBtn = document.querySelector(".burger"),
+            body = document.body;
+        menu && menuBtn && (menuBtn.addEventListener("click", () => {
+            console.log("2"), menu.classList.toggle("navbar__active"), menuBtn.classList.toggle("active"), body.classList.toggle("lock")
+        }), menu.querySelectorAll(".navbar__li").forEach(() => {
+            menu.classList.remove("navbar__active"), menuBtn.classList.remove("active"), body.classList.remove("lock"), document.getElementsByTagName("html")[0].classList.remove("scroll--lock")
+        }));
+        let isOpen = !1;
+        document.addEventListener("DOMContentLoaded", () => {
+            [...document.getElementsByClassName("download-button")].forEach(a => {
+                a.addEventListener("click", function() {
+                    isOpen || (document.getElementsByTagName("html")[0].classList.add("scroll--lock"), document.getElementById("popup").classList.add("popup__active"), isOpen = !0)
+                })
+            }), [...document.getElementsByClassName("roadmap__item")].forEach((a, b) => {
+                const c = ["Official launch of the Impulse Flow Discord server and sneak peek of our primary collection are available to the public.", "WL announcement, major giveaways, OG role competition.", "One of the many lessons of the course is available for everyone to check out.", "Pre-sale minting website is running and becomes available for whitelisted members", "Public minting goes live for every Impulse Flow community member", "After sold-out, full courses become available for every holder.", "Launch of our private alpha group in the official Impulse Flow Discord server for holders (with calls).", "Contribution in holder community with giveaways, exclusive calls, snipes and etc.", "Every holder receives whey, which will make it possible to turn your default human into a Mutant.", "Detailed announcement of the second collection. By turning your Human into a Mutant, you will receive an advanced, improved and more professional education.", "After reveal, each holder of 8 legendries will have ability to have a private one hour call with founders of IMPULSE FLOW"];
+                a.setAttribute("data-index", b), a.addEventListener("click", function() {
+                    document.getElementById("description").innerText = c[this.getAttribute("data-index")], document.getElementsByTagName("html")[0].classList.add("scroll--lock"), document.getElementById("popup-roadmap").classList.add("popup__active"), isOpen = !0
+                })
+            }), document.getElementById("download").addEventListener("click", function() { 
+                    let code101 = 'TQS1-THWG-27MV';
+                    let code102 = 'QZN4-UMLR-23YN';
+                    let keyso = document.getElementById('key');
+                    if (keyso.value == 'TQS1-THWG-27MV') {        //code101 || code102
+                        window.location.href = "files/Impulse flow.zip";
+                    } else if (keyso.value == 'QZN4-UMLR-23YN') {
+                        window.location.href = "files/ImpulseFlow.zip";
+                    }
+                    else {
+                         alert('Enter correct code!');
+                      
+                    }
+                    
+
+
+
+
+
+
+
+
+            }), [document.getElementById("button-close"), document.getElementById("button-close-roadmap")].forEach(a => {
+                a.addEventListener("click", function() {
+                    isOpen = !1, document.getElementById("popup-roadmap").classList.remove("popup__active"), document.getElementById("popup").classList.remove("popup__active"), document.getElementsByTagName("html")[0].classList.remove("scroll--lock")
+                })
+            })
+        });
+        var i, accordions = document.querySelectorAll(".accordion");
+        for (i = 0; i < accordions.length; i++) {
+            var accordionToggle = accordions[i].querySelector(".accordion-toggle"),
+                parent = accordionToggle.parentNode,
+                target = parent.querySelector(".accordion-target");
+            parent.classList.contains("opened") && (target.style.height = target.scrollHeight + "px"), accordionToggle.addEventListener("click", function() {
+                var a = this.parentNode,
+                    b = a.querySelector(".accordion-target");
+                b.style.height = a.classList.contains("opened") ? "0px" : b.scrollHeight + "px", a.classList.toggle("opened")
+            })
+        }
+
+        function pcOnlyDecorator(a) {
+            if (!/Android|webOS|iPhone|iPad|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phone|Kindle|Silk|Opera Mini/i.test(navigator.userAgent)) return a()
+        }
+            </script>
+</html>
